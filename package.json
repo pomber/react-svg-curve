@@ -11,7 +11,10 @@
     "node": ">=10"
   },
   "scripts": {
-    "start": "tsdx watch",
+    "postinstall": "yarn --cwd example install",
+    "start-lib": "tsdx watch",
+    "start-example": "yarn --cwd example start",
+    "start": "run-p start-lib start-example",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
@@ -38,6 +41,7 @@
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
     "husky": "^4.2.5",
+    "npm-run-all": "^4.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "tsdx": "^0.13.2",
