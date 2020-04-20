@@ -15,7 +15,7 @@ body {
 .grid > * {
   margin: 10px;
   padding: 0 10px 10px;
-  background: #f6f6f6;
+  background: #eee;
   color: #222;
   border-radius: 6px;
 }

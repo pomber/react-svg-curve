@@ -36,7 +36,7 @@ function defaultPointElement(
     <circle
       cx={center[0]}
       cy={center[1]}
-      r="4"
+      r="2"
       fill="black"
       stroke="black"
       strokeWidth="2"
