@@ -16,7 +16,7 @@ export function Curve({
 }: CurveProps) {
   return (
     <>
-      <path d={path} {...props} />
+      <path d={path} stroke="black" fill="transparent" {...props} />
       {showPoints && data.map(pointElement)}
     </>
   );
