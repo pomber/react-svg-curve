@@ -35,6 +35,7 @@
   },
   "name": "react-svg-curve",
   "author": "Rodrigo Pombo",
+  "repository": "pomber/react-svg-curve",
   "module": "dist/react-svg-curve.esm.js",
   "sideEffects": false,
   "devDependencies": {
